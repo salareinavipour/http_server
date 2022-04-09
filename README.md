@@ -9,10 +9,14 @@ All other paths return "Well, hello there!"
 
 First build the image:
 
-`$ docker build -t ruby_server:v0.1.0 .`
+```
+$ docker build -t ruby_server:v0.1.0 .
+```
 
 Then run it using:
 
-`$ docker run --name ruby_server -p 80:80 -d ruby_server:v0.1.0`
+```
+$ docker run --name ruby_server -p 80:80 -d ruby_server:v0.1.0
+```
 
 Now you can go to [localhost](http://localhost) to see the result.
